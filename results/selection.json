@@ -1,0 +1,4 @@
+{
+  "base_cnn": "cnn_noaug",
+  "best_cnn": "cnn_5blocks"
+}

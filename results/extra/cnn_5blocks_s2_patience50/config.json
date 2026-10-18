@@ -1,0 +1,41 @@
+{
+  "name": "cnn_5blocks_s2_patience50",
+  "model": "cnn",
+  "mode": "fc",
+  "aug": "none",
+  "act": "relu",
+  "dropout": 0.5,
+  "channels": "32,64,128,256,512",
+  "bs": 32,
+  "opt": "adam",
+  "lr": 0.001,
+  "lr_backbone": 0.0001,
+  "wd": 0.0,
+  "epochs": 50,
+  "patience": 50,
+  "seed": 2,
+  "data_dir": "data",
+  "out": "results/extra",
+  "classes": [
+    "Cerataulina_flagellate",
+    "Chaetoceros_flagellate",
+    "Emiliania_huxleyi",
+    "Pleuronema_sp",
+    "Strombidium_oculatum",
+    "Strombidium_wulffi",
+    "dino_large1"
+  ],
+  "norm_mean": [
+    0.6640278697013855,
+    0.6640278697013855,
+    0.6640278697013855
+  ],
+  "norm_std": [
+    0.16435863077640533,
+    0.16435863077640533,
+    0.16435863077640533
+  ],
+  "device": "mps",
+  "total_params": 1702695,
+  "trainable_params": 1702695
+}

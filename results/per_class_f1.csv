@@ -1,0 +1,8 @@
+,cnn_noaug,cnn_5blocks,resnet_fc,resnet_layer4,resnet_layer3_4,resnet_full
+Cerataulina_flagellate,0.818,0.955,0.884,0.927,0.905,0.927
+Chaetoceros_flagellate,0.844,0.955,0.889,0.936,0.913,0.936
+Emiliania_huxleyi,0.933,0.977,1.000,1.000,0.977,1.000
+Pleuronema_sp,0.571,0.889,0.865,0.971,0.971,0.971
+Strombidium_oculatum,0.680,0.756,0.829,0.933,0.909,0.791
+Strombidium_wulffi,0.739,0.708,0.880,0.917,0.920,0.840
+dino_large1,0.964,0.963,0.963,1.000,1.000,1.000

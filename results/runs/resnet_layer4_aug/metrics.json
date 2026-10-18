@@ -1,0 +1,356 @@
+{
+  "best_epoch": 6,
+  "epochs_trained": 16,
+  "train_time_sec": 71.16408920288086,
+  "train": {
+    "accuracy": 0.9726027397260274,
+    "balanced_accuracy": 0.973525187002276,
+    "precision_macro": 0.972870194500781,
+    "recall_macro": 0.973525187002276,
+    "f1_macro": 0.9728880763101896,
+    "per_class": {
+      "Cerataulina_flagellate": {
+        "precision": 0.96,
+        "recall": 0.9696969696969697,
+        "f1": 0.964824120603015,
+        "support": 99
+      },
+      "Chaetoceros_flagellate": {
+        "precision": 0.970873786407767,
+        "recall": 0.9615384615384616,
+        "f1": 0.966183574879227,
+        "support": 104
+      },
+      "Emiliania_huxleyi": {
+        "precision": 0.9904761904761905,
+        "recall": 1.0,
+        "f1": 0.9952153110047847,
+        "support": 104
+      },
+      "Pleuronema_sp": {
+        "precision": 0.9878048780487805,
+        "recall": 1.0,
+        "f1": 0.9938650306748467,
+        "support": 81
+      },
+      "Strombidium_oculatum": {
+        "precision": 0.9203539823008849,
+        "recall": 0.9811320754716981,
+        "f1": 0.9497716894977168,
+        "support": 106
+      },
+      "Strombidium_wulffi": {
+        "precision": 0.9805825242718447,
+        "recall": 0.9181818181818182,
+        "f1": 0.9483568075117371,
+        "support": 110
+      },
+      "dino_large1": {
+        "precision": 1.0,
+        "recall": 0.9841269841269841,
+        "f1": 0.992,
+        "support": 126
+      }
+    },
+    "confusion_matrix": [
+      [
+        96,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        104,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        81,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        104,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        9,
+        101,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        124
+      ]
+    ],
+    "loss": 0.06998176416166906
+  },
+  "val": {
+    "accuracy": 0.967948717948718,
+    "balanced_accuracy": 0.9664695917892848,
+    "precision_macro": 0.9694616977225673,
+    "recall_macro": 0.9664695917892848,
+    "f1_macro": 0.967633232078298,
+    "per_class": {
+      "Cerataulina_flagellate": {
+        "precision": 1.0,
+        "recall": 0.9545454545454546,
+        "f1": 0.9767441860465116,
+        "support": 22
+      },
+      "Chaetoceros_flagellate": {
+        "precision": 0.9565217391304348,
+        "recall": 1.0,
+        "f1": 0.9777777777777777,
+        "support": 22
+      },
+      "Emiliania_huxleyi": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 22
+      },
+      "Pleuronema_sp": {
+        "precision": 1.0,
+        "recall": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "support": 17
+      },
+      "Strombidium_oculatum": {
+        "precision": 0.9166666666666666,
+        "recall": 0.9565217391304348,
+        "f1": 0.9361702127659575,
+        "support": 23
+      },
+      "Strombidium_wulffi": {
+        "precision": 0.9130434782608695,
+        "recall": 0.9130434782608695,
+        "f1": 0.9130434782608695,
+        "support": 23
+      },
+      "dino_large1": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 27
+      }
+    },
+    "confusion_matrix": [
+      [
+        21,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        16,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        22,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        2,
+        21,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        27
+      ]
+    ],
+    "loss": 0.12922526618991143
+  },
+  "test": {
+    "accuracy": 0.9299363057324841,
+    "balanced_accuracy": 0.929928493136385,
+    "precision_macro": 0.9332298136645962,
+    "recall_macro": 0.929928493136385,
+    "f1_macro": 0.9314054475545158,
+    "per_class": {
+      "Cerataulina_flagellate": {
+        "precision": 0.9523809523809523,
+        "recall": 0.9523809523809523,
+        "f1": 0.9523809523809523,
+        "support": 21
+      },
+      "Chaetoceros_flagellate": {
+        "precision": 0.9565217391304348,
+        "recall": 0.9565217391304348,
+        "f1": 0.9565217391304348,
+        "support": 23
+      },
+      "Emiliania_huxleyi": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 22
+      },
+      "Pleuronema_sp": {
+        "precision": 1.0,
+        "recall": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "support": 17
+      },
+      "Strombidium_oculatum": {
+        "precision": 0.8260869565217391,
+        "recall": 0.8260869565217391,
+        "f1": 0.8260869565217391,
+        "support": 23
+      },
+      "Strombidium_wulffi": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1": 0.8333333333333334,
+        "support": 24
+      },
+      "dino_large1": {
+        "precision": 0.9642857142857143,
+        "recall": 1.0,
+        "f1": 0.9818181818181818,
+        "support": 27
+      }
+    },
+    "confusion_matrix": [
+      [
+        20,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        22,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        16,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        19,
+        4,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        27
+      ]
+    ],
+    "loss": 0.17681416086548535
+  }
+}

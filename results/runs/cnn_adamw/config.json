@@ -1,0 +1,41 @@
+{
+  "name": "cnn_adamw",
+  "model": "cnn",
+  "mode": "fc",
+  "aug": "none",
+  "act": "relu",
+  "dropout": 0.5,
+  "channels": "32,64,128,256",
+  "bs": 32,
+  "opt": "adamw",
+  "lr": 0.001,
+  "lr_backbone": 0.0001,
+  "wd": 0.01,
+  "epochs": 50,
+  "patience": 10,
+  "seed": 42,
+  "data_dir": "data",
+  "out": "results/runs",
+  "classes": [
+    "Cerataulina_flagellate",
+    "Chaetoceros_flagellate",
+    "Emiliania_huxleyi",
+    "Pleuronema_sp",
+    "Strombidium_oculatum",
+    "Strombidium_wulffi",
+    "dino_large1"
+  ],
+  "norm_mean": [
+    0.6640278697013855,
+    0.6640278697013855,
+    0.6640278697013855
+  ],
+  "norm_std": [
+    0.16435863077640533,
+    0.16435863077640533,
+    0.16435863077640533
+  ],
+  "device": "mps",
+  "total_params": 456487,
+  "trainable_params": 456487
+}

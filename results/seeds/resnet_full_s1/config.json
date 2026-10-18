@@ -1,0 +1,41 @@
+{
+  "name": "resnet_full_s1",
+  "model": "resnet18",
+  "mode": "full",
+  "aug": "none",
+  "act": "relu",
+  "dropout": 0.5,
+  "channels": "32,64,128,256",
+  "bs": 32,
+  "opt": "adam",
+  "lr": 0.001,
+  "lr_backbone": 0.0001,
+  "wd": 0.0,
+  "epochs": 50,
+  "patience": 10,
+  "seed": 1,
+  "data_dir": "data",
+  "out": "results/seeds",
+  "classes": [
+    "Cerataulina_flagellate",
+    "Chaetoceros_flagellate",
+    "Emiliania_huxleyi",
+    "Pleuronema_sp",
+    "Strombidium_oculatum",
+    "Strombidium_wulffi",
+    "dino_large1"
+  ],
+  "norm_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "norm_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "device": "mps",
+  "total_params": 11180103,
+  "trainable_params": 11180103
+}
